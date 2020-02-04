@@ -2,7 +2,7 @@ h1,
 h2 {
     color: rgb(159, 181, 197);
     font-family: monospace;
-    background-color:lightblue;
+    background-color:darkblue;
 }
 
 body {
@@ -10,5 +10,5 @@ body {
 }
 
 main {
-    background-color:darkseagreen;
+    background-color:lightgray;
 }
