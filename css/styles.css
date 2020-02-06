@@ -1,14 +1,26 @@
 h1,
 h3 {
-    color: rgb(159, 181, 197);
-    font-family: monospace;
-    background-color:darkblue;
+    color: rgb(72, 72, 72);
+    font-family: 'arial';
+    background-color:#a8d1a9;
+    font-size: 1.5em;
 }
 
 body {
-    background-color: lightslategray;
+    background-color: #87bf89;
 }
 
 main {
-    background-color:lightgray;
+    color: beige;
+    background-color:#1f391f;
+}
+
+.somename {
+    color:dimgray;
+}
+
+.title {
+    font-size: 1.5em;
+    font-family: monospace;
+    color: floralwhite
 }
