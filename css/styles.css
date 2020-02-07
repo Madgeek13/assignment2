@@ -1,25 +1,26 @@
+
+
 h1,
 h3 {
-    color: rgb(72, 72, 72);
+    color: rgb(194,231,201);
     font-family: 'arial';
     font-size: 1.5em;
 }
 
 body {
-    background-color: rgb(205,194,180);
+    background-color: rgb(140,110,102);
 }
 
 main {
-    color: rgb(101,102,97);
 
 }
 
 .somename {
-    color: rgb(156,129,113);
+    color: rgb(12,119,110);
 }
 
 .title {
     font-size: 1.5em;
     font-family: monospace;
-    color: rgb(151,104,102);
+    color: rgb(12,119,110);
 }
