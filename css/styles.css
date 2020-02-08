@@ -1,26 +1,37 @@
-
-
 h1,
 h3 {
-    color: rgb(194,231,201);
+    color: rgb(47,44,47);
     font-family: 'arial';
     font-size: 1.5em;
 }
 
 body {
-    background-color: rgb(140,110,102);
+    background-image: url("../images/dose-juice-sTPy-oeA3h0-unsplash.jpg");
+    background-size:cover;
+    background-repeat: repeat-x;
+    background-color: rgb(245,231,238);
 }
 
 main {
-
+    background-color:rgb(245,231,238);
+    
 }
 
-.somename {
-    color: rgb(12,119,110);
+.recipeback {
+    background-color: rgb(181,208,174);
+}
+
+.buddha {
+    color: rgb(102,159,119);
+}
+
+.text {
+    color: rgb(67,91,101);
 }
 
 .title {
     font-size: 1.5em;
     font-family: monospace;
-    color: rgb(12,119,110);
+    color: rgb(102,159,119);
 }
+
