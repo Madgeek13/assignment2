@@ -22,15 +22,29 @@ main {
 }
 
 #buddha {
+    text-align: center;
+    font-size: 1.5em;
     color: rgb(102, 159, 119);
+    border: 5px solid black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 15px;    
 }
 
-.text,
-a,
-ul,
-ol {
+#question {
+    font-family: monospace;
+    text-align: center;
+    }
+
+body ul {
     color: rgb(67, 91, 101);
-    font-family: sans-serif
+    font-family: sans-serif;
+    text-align: left;
+}
+
+.text, a {
+    color: rgb(67, 91, 101);
+    font-family: sans-serif; 
 }
 
 .in {
@@ -43,3 +57,14 @@ ol {
 a:hover {
     color: black;
 }
+
+.photo {
+    margin: 10px;
+    
+}
+
+.photo:hover {
+    border: 5px solid black;
+    
+}
+
