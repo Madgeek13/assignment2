@@ -22,27 +22,32 @@ main {
 }
 
 #buddha {
-    text-align: center;
+    text-align: left;
     font-size: 1.5em;
     color: rgb(102, 159, 119);
-    border: 5px solid black;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    border-radius: 15px;    
+    margin: 25px;
 }
 
 #question {
-    font-family: monospace;
+    color: rgb(102, 159, 119);
+    font-size:1.3em;
+    font-family: sans-serif;
     text-align: center;
+    border: 5px solid black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 15px;   
     }
 
 body ul {
+    margin: 30px;
+    font-size:1em;
     color: rgb(67, 91, 101);
     font-family: sans-serif;
     text-align: left;
 }
 
-.text, a {
+.text, a, p, footer {
     color: rgb(67, 91, 101);
     font-family: sans-serif; 
 }
@@ -68,3 +73,19 @@ a:hover {
     
 }
 
+.info {
+    font-size: 1em;
+    font-family:sans-serif;
+    color: rgb(67, 91, 101);
+    margin: 10px;
+}
+
+.steps {
+    font-family: sans-serif;
+    color: rgb(67, 91, 101);
+    line-height: 30px;
+}
+
+.nutritionfact {
+    margin: 10px;
+}
