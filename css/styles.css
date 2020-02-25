@@ -9,11 +9,10 @@ h3 {
     color: rgb(47, 44, 47);
     font-family: 'arial';
     font-size: 1.5em;
+    text-align: center
 }
 
 body {
-    /*    background-image: url("../images/dose-juice-sTPy-oeA3h0-unsplash.jpg");*/
-
     background-image: linear-gradient(rgba(245, 231, 238, 0.7), rgba(245, 231, 238, 0.7)), url("../images/dose-juice-sTPy-oeA3h0-unsplash.jpg");
 
     background-size: cover;
@@ -42,13 +41,18 @@ body {
     border-radius: 15px;
 }
 
-body ul {
+.steps body ul {
     margin: 0px 30px 0px 30px;
     font-size: 1em;
     color: rgb(67, 91, 101);
     font-family: sans-serif;
     text-align: left;
 
+}
+
+header nav a {
+    text-shadow: 5px 5px gray;
+    
 }
 
 .text,
@@ -90,11 +94,6 @@ a:hover {
     margin: 10px;
 }
 
-.steps {
-    font-family: sans-serif;
-    color: rgb(67, 91, 101);
-    line-height: 30px;
-}
 
 .nutritionfact {
     margin: 10px 10px 10px 550px;
