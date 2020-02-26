@@ -41,18 +41,13 @@ body {
     border-radius: 15px;
 }
 
-.steps body ul {
+.steps, body main ul{
     margin: 0px 30px 0px 30px;
     font-size: 1em;
     color: rgb(67, 91, 101);
     font-family: sans-serif;
     text-align: left;
 
-}
-
-header nav a {
-    text-shadow: 5px 5px gray;
-    
 }
 
 .text,
@@ -67,8 +62,8 @@ footer {
     margin-right: auto;
 }
 
-.moreinfo {
-    margin: 0px 30px 2px 100px;
+.moreinfo, body, header nav {
+    margin: 0px 50px 2px 50px;
 }
 
 .in {
@@ -82,8 +77,11 @@ a:hover {
     color: black;
 }
 
-.photo {
-    margin: 10px;
+div {
+    font-size: 1.2em;
+    font-family: sans-serif;
+    text-align: left;
+    padding: 30px;
 }
 
 
